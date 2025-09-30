@@ -12,6 +12,7 @@ const getSum = () => {
     
 let tr = document.createElement('tr')
 let td = document.createElement('td')
+	td.id = "ans" 
 td.innerText = sum	
 tr.append(td)
 let table = document.querySelector('table')
